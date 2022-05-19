@@ -1,0 +1,22 @@
+{
+  "name": "changelog-writer",
+  "version": "1.0.0-alpha.1",
+  "description": "Changelog writer for node.js",
+  "main": "index.js",
+  "author": "Leo Liang <leoliang@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "compile": "tsc --pretty"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^17.0.35",
+    "typescript": "^4.6.4"
+  }
+}
