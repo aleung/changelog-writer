@@ -62,4 +62,5 @@ async function writeChangelog(
   await file.close();
 }
 
+export type { Changes, Changelog, Version };
 export { writeChangelog };

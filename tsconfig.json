@@ -10,7 +10,8 @@
     "noImplicitReturns": true,
     "skipLibCheck": true,
     "sourceMap": true,
+    "declaration": true,
     "target": "es2020"
   },
-  "include": ["**/*.ts", "src/**/*.ts", "test/**/*.ts"]
+  "include": ["src/**/*.ts"]
 }

@@ -1,4 +1,4 @@
-import { writeChangelog } from "../src/index";
+import { writeChangelog } from "./index";
 
 const changelog = {
   title: "changelog title (default: Changelog)",
